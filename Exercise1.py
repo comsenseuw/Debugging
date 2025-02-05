@@ -13,7 +13,7 @@ def id_to_fruit(fruit_id: int, fruits: Set[str]) -> str:
 
     | ``1   It does not print the fruit at the correct index, why is the returned result wrong?``
             A: The fruits value is a Set, which means its elements are unordered.
-    | ``2   How could this be fixed?``
+    | ``2   How could this be fixed?``asd
             A: Instead of a Set, use a List to maintain index order for fruits param by replacing curly braces {} with square brackets [].
 
     This example demonstrates the issue:
