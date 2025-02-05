@@ -10,7 +10,7 @@ def swap(coords: np.ndarray):
             [[x11, y11, x12, y12, classid1],
              [x21, y21, x22, y22, classid2],
              ...
-             [xn1, yn1, xn2, yn2, classid3]]s
+             [xn1, yn1, xn2, yn2, classid3]]
 
     :return: The new numpy array where the x and y coordinates are flipped.
 
