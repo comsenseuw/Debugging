@@ -19,7 +19,7 @@ A : First, the data has blank rows, raising a ValueError('all input arrays must 
 A : First, fix the data by adding newline='' in the f variable to prevent blank lines. Then, swap the result index in plot() and update the x, y labels. Finally, convert the result values from strings to float using np.array(results, dtype=float).
 
 ## EXERCISE 4
-### ❓ Changing the batch_size from 32 to 64 triggers the structural bug
-A :
-### 🤔 Can you also spot the cosmetic bug?
+### 🤔 Changing the batch_size from 32 to 64 triggers the structural bug.
+A : True, because the target size and input size is different and return missmatch
+### ❓ Can you also spot the cosmetic bug?
 A : 
