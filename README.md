@@ -20,6 +20,6 @@ A : First, fix the data by adding newline='' in the f variable to prevent blank 
 
 ## EXERCISE 4
 ### 🤔 Changing the batch_size from 32 to 64 triggers the structural bug.
-A : True, even using another value except 32 will occuring structural bug the target size and input size is different and return missmatch
+A : True, Using a value other than 32 causes a structural bug due to a mismatch between the target size and input size, resulting in an error.
 ### ❓ Can you also spot the cosmetic bug?
-A : 
+A : The Epoch's set to 100, while only 99 of Epoch executed
